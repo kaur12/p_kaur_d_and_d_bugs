@@ -19,7 +19,7 @@
 		// let newPuzzlePiece() {
 			//generate puzzle pieces fro the left hand side
 		thePieces.forEach((piece, index) => {
-			let newPuzzlePiece = `<img draggable "id=piece${index}" class="puzzle-image" src="images/${piece + pictureIndex}.jpg" alt="boxes">`;
+			let newPuzzlePiece = `<img draggable id="piece${index}" class="puzzle-image" src="images/${piece + pictureIndex}.jpg" alt="boxes">`;
 
 			piecesBoard.innerHTML += newPuzzlePiece;
 		});
